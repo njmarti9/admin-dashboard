@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,100 +9,248 @@
     <!-- <script src="admin.js" defer></script> -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
+
 <body>
     <div class="container">
-        <div class="sidebar">
-            <div class="logo sidelink">
-                <i class="material-icons">dashboard</i>
-                <h3 class="pagetitle">Dashboard</h3>
-            </div>
-            
-            <div class="sidelink">
-                <i class="material-icons">home</i>
-                <h4 class="textlinks">Home</h4>
-            </div>
-            
-            <div class="sidelink">
-                <i class="material-icons">person</i>
-                <h4 class="textlinks">Profile</h4>
-            </div>
+        <div class="leftside">
+            <div class="sidebar">
+                <div class="logo sidelink">
+                    <i class="material-symbols-outlined">dashboard</i>
+                    <h3 class="pagetitle">Dashboard</h3>
+                </div>
 
-            <div class="sidelink">
-                <i class="material-icons">chat_bubble</i>
-                <h4 class="textlinks">Messages</h4>
+                <div class="middlebuttons">
+                    <div class="sidelink">
+                        <i class="material-symbols-outlined">home</i>
+                        <h4 class="textlinks">Home</h4>
+                    </div>
+
+                    <div class="sidelink">
+                        <i class="material-symbols-outlined">person</i>
+                        <h4 class="textlinks">Profile</h4>
+                    </div>
+
+                    <div class="sidelink">
+                        <i class="material-symbols-outlined">chat_bubble</i>
+                        <h4 class="textlinks">Messages</h4>
+                    </div>
+
+                    <div class="sidelink">
+                        <i class="material-symbols-outlined">history</i>
+                        <h4 class="textlinks">History</h4>
+                    </div>
+
+                    <div class="sidelink">
+                        <i class="material-symbols-outlined">task</i>
+                        <h4 class="textlinks">Tasks</h4>
+                    </div>
+
+                    <div class="sidelink">
+                        <i class="material-symbols-outlined">groups</i>
+                        <h4 class="textlinks">Community</h4>
+                    </div>
+                </div>
+
+                <div class="bottombuttons">
+                    <div class="sidelink">
+                        <i class="material-symbols-outlined">settings</i>
+                        <h4 class="textlinks">Settings</h4>
+                    </div>
+
+                    <div class="sidelink">
+                        <i class="material-symbols-outlined">help</i>
+                        <h4 class="textlinks">Support</h4>
+                    </div>
+
+                    <div class="sidelink">
+                        <i class="material-symbols-outlined">verified_user</i>
+                        <h4 class="textlinks">Privacy</h4>
+                    </div>
+                </div>
+
             </div>
         </div>
 
-        <div class="topbar">
-            <div class="search">
-                <i class="material-icons">search</i>
-                <input class="searchbar">
-            </div>
-            <div class="profile">
-                <i class="material-icons">notifications_active</i>
-                <img src="" alt="profile_pic">
-            </div>
-            <div class="welcome">
-                <p>Hello There,</p>
-            </div>
-            <div class="action-buttons">
-                <button>New</button>
-                <button>Upload</button>
-                <button>Share</button>
-            </div>
-            
 
+        <div class="rightside">
+            <div class="topbar">
+                <div class="search">
+                    <i class="material-symbols-outlined">search</i>
+                    <input type="text" id="searchbar" name="searchbar">
+                </div>
+                <div class="profile">
+                    <i class="material-symbols-outlined">notifications_active</i>
+                    <img src="images/mob.jpg" alt="profile_pic">
+                    <h5>Shigeo Kageyama</h5>
+                </div>
+                <div class="welcome">
+                    <img src="images/mob.jpg" alt="profile_pic">
+                    <p class="hello">Hi there,</p>
+                    <p class="username">Shigeo Kageyama (@mob)</p>
+                </div>
+                <div class="action-buttons">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </div>
+
+            <div class="contentpanel">
+                <h4 class="project-title">Your Projects</h4>
+                <div class="projects">
+                    <div class="card">
+                        <h5>Super Cool Project</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt sit amet sem quis
+                            euismod. Donec diam eros, vestibulum id orci non, tristique luctus turpis. Donec tristique
+                            aliquet purus eget pretium. Pellentesque habitant morbi tristique senectus et netus et
+                            malesuada fames ac turpis egestas. Phasellus efficitur, mi ut gravida posuere, enim nibh
+                            imperdiet tellus, nec cursus libero urna a neque. Nulla laoreet placerat dui et venenatis.
+                            Cras malesuada bibendum arcu, ut varius mauris venenatis vitae. In hac habitasse platea
+                            dictumst. Duis imperdiet diam a consequat sagittis. Morbi iaculis massa sem, sed facilisis
+                            sem faucibus nec. Donec vitae felis fringilla, laoreet sem sed, tincidunt eros. Nunc mollis,
+                            enim ac tristique hendrerit, sapien ligula venenatis libero, quis tempus urna dui sed dui.
+                            In velit orci, lacinia ac vestibulum sed, bibendum sit amet lacus. Suspendisse est eros,
+                            commodo nec semper a, aliquam elementum libero. Vivamus commodo justo nec neque dapibus
+                            efficitur. </p>
+                        <div class="projectbuttons">
+                            <i class="material-symbols-outlined">star</i>
+                            <i class="material-symbols-outlined">visibility</i>
+                            <i class="material-symbols-outlined">share</i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h5>Less Cool Project</h5>
+                        <p>Duis vel porttitor nunc. Mauris scelerisque nisl ut turpis porttitor cursus. Suspendisse nisi
+                            mi, interdum a libero at, euismod malesuada purus. Curabitur at ante sollicitudin, accumsan
+                            dolor non, euismod eros. Nunc tellus ipsum, ultricies nec molestie et, malesuada ut dolor.
+                            Phasellus a quam pharetra, consectetur odio pulvinar, efficitur nisi. Nullam mi risus,
+                            fermentum egestas ipsum ac, lobortis vehicula libero. Sed sem neque, euismod ut metus at,
+                            aliquet dapibus leo. Aenean quis nisl eget tortor hendrerit elementum ut in risus.
+                            Vestibulum eleifend risus quis elit luctus, nec convallis ex ullamcorper. </p>
+                        <div class="projectbuttons">
+                            <i class="material-symbols-outlined">star</i>
+                            <i class="material-symbols-outlined">visibility</i>
+                            <i class="material-symbols-outlined">share</i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h5>Impossible App</h5>
+                        <p>Sed dignissim mauris et purus consectetur, in varius turpis luctus. Fusce odio diam, pulvinar
+                            non mauris in, sodales vehicula quam. Quisque non facilisis leo, ac consectetur ligula. In
+                            lacinia tristique fringilla. Donec blandit ante quis eros tempus egestas. Sed pulvinar
+                            vestibulum augue, non molestie tortor consectetur eu. Donec turpis neque, elementum at odio
+                            sed, placerat ullamcorper libero. Praesent vel auctor ligula. Nam eget est at nisl bibendum
+                            elementum. </p>
+                        <div class="projectbuttons">
+                            <i class="material-symbols-outlined">star</i>
+                            <i class="material-symbols-outlined">visibility</i>
+                            <i class="material-symbols-outlined">share</i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h5>Easy Peasy App</h5>
+                        <p>Morbi quis nunc ultrices, ultricies orci eget, tincidunt orci. Proin non ante ultrices,
+                            dignissim nisl vitae, laoreet dolor. Orci varius natoque penatibus et magnis dis parturient
+                            montes, nascetur ridiculus mus. Interdum et malesuada fames ac ante ipsum primis in
+                            faucibus. Phasellus rhoncus ligula at mi scelerisque, sit amet imperdiet mauris congue.
+                            Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent metus dolor, sagittis
+                            a suscipit non, ullamcorper non odio. Cras ut lacinia nunc, ac lacinia tortor. In vel ipsum
+                            lacus. Nullam nec augue elit. </p>
+                        <div class="projectbuttons">
+                            <i class="material-symbols-outlined">star</i>
+                            <i class="material-symbols-outlined">visibility</i>
+                            <i class="material-symbols-outlined">share</i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h5>Ad Blocker</h5>
+                        <p>Nullam pellentesque tristique nunc, vitae finibus leo semper sed. Curabitur vel turpis non
+                            nunc varius varius. Nullam tempus aliquet ante et commodo. Suspendisse potenti. Sed
+                            imperdiet aliquet ex, vel ornare lacus porta ac. Praesent ut iaculis lacus. Praesent tellus
+                            lorem, gravida in massa in, mattis facilisis dolor. Vestibulum tempus, orci et maximus
+                            sodales, eros lacus dignissim elit, et auctor risus massa eu felis. Mauris non urna lacinia,
+                            lobortis magna dignissim, pharetra nisl. Morbi sit amet arcu ac tortor elementum tincidunt.
+                            Quisque laoreet sapien et ligula luctus finibus. Morbi magna massa, gravida non tincidunt a,
+                            maximus non neque. Sed dignissim dictum tincidunt. Sed auctor risus nec congue egestas.
+                            Etiam gravida eget est sit amet convallis. Maecenas eget elementum lorem, quis porta mauris.
+                        </p>
+                        <div class="projectbuttons">
+                            <i class="material-symbols-outlined">star</i>
+                            <i class="material-symbols-outlined">visibility</i>
+                            <i class="material-symbols-outlined">share</i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h5>Money Maker</h5>
+                        <p> Suspendisse eget gravida dolor. Aliquam quis quam eget tortor commodo finibus quis a neque.
+                            Sed vitae condimentum massa, vel venenatis dui. Quisque feugiat hendrerit odio, vel
+                            scelerisque enim tempus eu. Etiam sagittis risus et rhoncus luctus. Sed sed lacinia odio, ac
+                            pretium massa. Aenean rhoncus facilisis diam, in porta turpis aliquet ut. Vivamus vel lacus
+                            ante. Maecenas nec sagittis arcu. Donec tristique semper dolor, ut auctor elit finibus eu.
+                            Aliquam erat volutpat. Proin libero ipsum, egestas at est quis, auctor elementum neque.
+                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                            egestas. Integer aliquam, massa bibendum pulvinar hendrerit, sem libero tincidunt nisl, eget
+                            porttitor est dolor eu sem. </p>
+                        <div class="projectbuttons">
+                            <i class="material-symbols-outlined">star</i>
+                            <i class="material-symbols-outlined">visibility</i>
+                            <i class="material-symbols-outlined">share</i>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="announcement-title">Annoucements</h4>
+                <div class="annoucements">
+                    <div class="card">
+                        <h6>Site Maintenance</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt sit amet sem quis
+                            euismod. Donec diam eros, vestibulum id orci non, tristique luctus turpis. Donec tristique
+                            aliquet purus eget pretium. </p>
+                    </div>
+                    <div class="empty"></div>
+                    <div class="card">
+                        <h6>Community Share Day</h6>
+                        <p>Duis vel porttitor nunc. Mauris scelerisque nisl ut turpis porttitor cursus. Suspendisse nisi
+                            mi, interdum a libero at, euismod malesuada purus. Curabitur at ante sollicitudin, accumsan
+                            dolor non, euismod eros.</p>
+                    </div>
+                    <div class="empty"></div>
+                    <div class="card">
+                        <h6>Updated Privacy Policy</h6>
+                        <p>Sed dignissim mauris et purus consectetur, in varius turpis luctus. Fusce odio diam, pulvinar
+                            non mauris in, sodales vehicula quam. Quisque non facilisis leo, ac consectetur ligula.</p>
+                    </div>
+                </div>
+                <h4 class="trending-title">Trending</h4>
+                <div class="trending">
+                    <div class="card">
+                        <img src="images/reigen.jpg"></img>
+                        <h6>@reigen</h6>
+                        <p>World Peace Builder</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/mob.jpg"></img>
+                        <h6>@mob</h6>
+                        <p>Super Cool Project</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/Dimple.webp"></img>
+                        <h6>@dimple</h6>
+                        <p>Life Changing App</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/hanazawa.jpg"></img>
+                        <h6>@hanazawa</h6>
+                        <p>No Traffic Maker</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="contentpanel">
-            <div class="projects">
-                <div class="card">
-                    <h5>Super Cool Project</h5>
-                    <p>Some random stuff</p>
-                </div>
-                <div class="card">
-                    <h5>Super Cool Project</h5>
-                    <p>Some random stuff</p>
-                </div>
-                <div class="card">
-                    <h5>Super Cool Project</h5>
-                    <p>Some random stuff</p>
-                </div>
-                <div class="card">
-                    <h5>Super Cool Project</h5>
-                    <p>Some random stuff</p>
-                </div>
-                <div class="card">
-                    <h5>Super Cool Project</h5>
-                    <p>Some random stuff</p>
-                </div>
-                <div class="card">
-                    <h5>Super Cool Project</h5>
-                    <p>Some random stuff</p>
-                </div>
-            </div>
-            <div class="annoucements">
-                <div class="card">
-                    <h6>Site Maintenance</h6>
-                    <p>Gibberish Gibberish Gibberish Gibberish</p>
-                </div>
-                <div class="card">
-                    <h6>Site Maintenance</h6>
-                    <p>Gibberish Gibberish Gibberish Gibberish</p>
-                </div>
-                <div class="card"></div>
-                <div class="card"></div>
-            </div>
-            <div class="trending">
-                <div class="card">
-                    <i class="material-icons">person</i>
-                    <h6>Sup Noobs</h6>
-                </div>
-                <div class="card"></div>
-                <div class="card"></div>
-            </div>
-        </div>
     </div>
 </body>
+
 </html>
