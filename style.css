@@ -46,6 +46,7 @@ img {
     grid-template-columns: auto 1fr;
     grid-template-rows: 1fr;
     border: var(--border-for-all);
+    height: 100vh;
 }
 
 .leftside {
